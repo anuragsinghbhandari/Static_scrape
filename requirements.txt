@@ -1,0 +1,4 @@
+Beautifulsoup4
+lxml
+requests
+playwright
