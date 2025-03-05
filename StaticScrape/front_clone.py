@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
-def scrape_website(url, output_file="index.html"):
+def Frontclone(url, output_file="index.html"):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)  # Run in headless mode (no UI)
         page = browser.new_page()
@@ -29,8 +29,7 @@ def scrape_website(url, output_file="index.html"):
         browser.close()
         print(f"✅ Page saved as {output_file}")
 
-# Example usage:
-'''
-scrape_website("https://amazon.com", "amazon")
-
-'''
+def main():
+    url = input("Enter URL: ")
+    output_file = input("Enter output file name: ")
+    Frontclone(url, output_file)
