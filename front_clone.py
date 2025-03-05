@@ -30,4 +30,7 @@ def scrape_website(url, output_file="index.html"):
         print(f"✅ Page saved as {output_file}")
 
 # Example usage:
-scrape_website("https://discussion-pannel-ai.vercel.app/", "discussion-pannel-ai")
+'''
+scrape_website("https://amazon.com", "amazon")
+
+'''
