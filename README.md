@@ -2,6 +2,7 @@
 
 ![StaticScrape](https://img.shields.io/badge/version-0.2.1-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
+[![PyPI Downloads](https://static.pepy.tech/badge/staticscrape)](https://pepy.tech/projects/staticscrape)
 
 ## 📌 Description
 StaticScrape is a command-line tool designed to **clone the front end of any website** effortlessly. It retrieves the HTML structure while removing unnecessary scripts to create a clean static version of the webpage.
